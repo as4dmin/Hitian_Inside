@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EventsFragment"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/Eventspage"
+    android:background="@drawable/background_page">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text="GALLERY"
+            android:textSize="50sp"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="193dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="0dp"
+                android:src="@drawable/gimg36">
+
+            </ImageView>
+            <ImageView
+                android:layout_width="210dp"
+                android:layout_height="200dp"
+                android:layout_marginRight="1dp"
+                android:src="@drawable/gimg37">
+
+            </ImageView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="193dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="0dp"
+                android:src="@drawable/gimg38">
+
+            </ImageView>
+            <ImageView
+                android:layout_width="210dp"
+                android:layout_height="200dp"
+                android:layout_marginRight="1dp"
+                android:src="@drawable/gimg">
+
+            </ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="193dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="0dp"
+                android:src="@drawable/gimg4">
+
+            </ImageView>
+            <ImageView
+                android:layout_width="210dp"
+                android:layout_height="200dp"
+                android:layout_marginRight="1dp"
+                android:src="@drawable/gimg5">
+
+            </ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="193dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="0dp"
+                android:src="@drawable/gimg3">
+
+            </ImageView>
+            <ImageView
+                android:layout_width="210dp"
+                android:layout_height="200dp"
+                android:layout_marginRight="1dp"
+                android:src="@drawable/gimg2">
+
+            </ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="193dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="0dp"
+                android:src="@drawable/gimg6">
+
+            </ImageView>
+            <ImageView
+                android:layout_width="210dp"
+                android:layout_height="200dp"
+                android:layout_marginRight="1dp"
+                android:src="@drawable/gimg7">
+
+            </ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="193dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="0dp"
+                android:src="@drawable/gimg8">
+
+            </ImageView>
+            <ImageView
+                android:layout_width="210dp"
+                android:layout_height="200dp"
+                android:layout_marginRight="1dp"
+                android:src="@drawable/gimg9">
+
+            </ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="193dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="0dp"
+                android:src="@drawable/gimg33">
+
+            </ImageView>
+            <ImageView
+                android:layout_width="210dp"
+                android:layout_height="200dp"
+                android:layout_marginRight="1dp"
+                android:src="@drawable/gimg34">
+
+            </ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="193dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="0dp"
+                android:src="@drawable/gimg35">
+
+            </ImageView>
+            <ImageView
+                android:layout_width="210dp"
+                android:layout_height="200dp"
+                android:layout_marginRight="1dp"
+                android:src="@drawable/gimg27">
+
+            </ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="193dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="0dp"
+                android:src="@drawable/gimg28">
+
+            </ImageView>
+            <ImageView
+                android:layout_width="210dp"
+                android:layout_height="200dp"
+                android:layout_marginRight="1dp"
+                android:src="@drawable/gimg29">
+
+            </ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="193dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="0dp"
+                android:src="@drawable/gimg24">
+
+            </ImageView>
+            <ImageView
+                android:layout_width="210dp"
+                android:layout_height="200dp"
+                android:layout_marginRight="1dp"
+                android:src="@drawable/gimg26">
+
+            </ImageView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="193dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="0dp"
+                android:src="@drawable/gimg25">
+
+            </ImageView>
+            <ImageView
+                android:layout_width="210dp"
+                android:layout_height="200dp"
+                android:layout_marginRight="1dp"
+                android:src="@drawable/gimg21">
+
+            </ImageView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="193dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="0dp"
+                android:src="@drawable/gimg22">
+
+            </ImageView>
+            <ImageView
+                android:layout_width="210dp"
+                android:layout_height="200dp"
+                android:layout_marginRight="1dp"
+                android:src="@drawable/gimg23">
+
+            </ImageView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="193dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="0dp"
+                android:src="@drawable/gimg10">
+
+            </ImageView>
+            <ImageView
+                android:layout_width="210dp"
+                android:layout_height="200dp"
+                android:layout_marginRight="1dp"
+                android:src="@drawable/gimg11">
+
+            </ImageView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="193dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="0dp"
+                android:src="@drawable/gimg12">
+
+            </ImageView>
+            <ImageView
+                android:layout_width="210dp"
+                android:layout_height="200dp"
+                android:layout_marginRight="1dp"
+                android:src="@drawable/gimg13">
+
+            </ImageView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="193dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="0dp"
+                android:src="@drawable/gimg14">
+
+            </ImageView>
+            <ImageView
+                android:layout_width="210dp"
+                android:layout_height="200dp"
+                android:layout_marginRight="1dp"
+                android:src="@drawable/gimg15">
+
+            </ImageView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="193dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="0dp"
+                android:src="@drawable/gimg16">
+
+            </ImageView>
+            <ImageView
+                android:layout_width="210dp"
+                android:layout_height="200dp"
+                android:layout_marginRight="1dp"
+                android:src="@drawable/gimg17">
+
+            </ImageView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="193dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="0dp"
+                android:src="@drawable/gimg18">
+
+            </ImageView>
+            <ImageView
+                android:layout_width="210dp"
+                android:layout_height="200dp"
+                android:layout_marginRight="1dp"
+                android:src="@drawable/gimg19">
+
+            </ImageView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="193dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="0dp"
+                android:src="@drawable/gimg20">
+
+            </ImageView>
+            <ImageView
+                android:layout_width="210dp"
+                android:layout_height="200dp"
+                android:layout_marginRight="1dp"
+                android:src="@drawable/gimg30">
+
+            </ImageView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="193dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="0dp"
+                android:src="@drawable/gimg31">
+
+            </ImageView>
+            <ImageView
+                android:layout_width="210dp"
+                android:layout_height="200dp"
+                android:layout_marginRight="1dp"
+                android:src="@drawable/gimg32">
+
+            </ImageView>
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>

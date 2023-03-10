@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ContactUsFragment"
+    android:background="@drawable/background_page">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact Us"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="218dp"
+        android:layout_height="207dp"
+        android:src="@drawable/contimg1" />
+    <ImageView
+        android:layout_width="218dp"
+        android:layout_height="207dp"
+        android:src="@drawable/insideevent10" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="NAME : "
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="normal" />
+
+        <EditText
+            android:id="@+id/edtname"
+            android:layout_width="273dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:hint="Enter Your Name"
+            android:inputType="textPersonName"
+            android:backgroundTint="@color/white"
+            android:textAlignment="center"
+            android:textColor="#EDF1F3"
+            android:textColorHint="#9A9696"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="EMAIL : "
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="normal" />
+
+        <EditText
+            android:id="@+id/edtname"
+            android:layout_width="273dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:hint="Enter Your Email"
+            android:backgroundTint="@color/white"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColor="#EDF1F3"
+            android:textColorHint="#9A9696"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="MESSAGE BOX : "
+            android:layout_gravity="start"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="normal" />
+
+        <EditText
+            android:id="@+id/edtname"
+            android:layout_width="194dp"
+            android:layout_height="81dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/white"
+            android:gravity="start"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColor="#0C0C0C"
+            android:textColorHint="#9A9696"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/contactsubmit"
+        android:layout_marginLeft="150dp"
+        android:text="SUBMIT"/>
+
+
+
+</LinearLayout>
